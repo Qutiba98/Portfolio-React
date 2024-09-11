@@ -1,0 +1,59 @@
+/* Navbar */
+.navbar-custom {
+    background-color: #000000;
+    padding: 1rem 3rem;
+	
+}
+.navbar-custom .navbar-brand {
+    color: #25eeeb;
+    font-weight: bold;
+}
+.navbar-brand:hover {
+	transform: scale(1.90); }
+
+.navbar-custom .navbar-toggler {
+    border: none;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%287, 15, 18, 0.7%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.navbar-custom .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+	transform: scale(1.90); }
+
+
+.navbar-custom .nav-link:hover {
+    color: #f39f19;
+}
+
+.navbar-custom .nav-item {
+    margin-left: 1rem;
+}
+
+/* Media  for nav */
+@media (max-width: 768px) {
+    .navbar-custom {
+        padding: 0.5rem 1rem;
+		background-color: #333535;
+    }
+
+    .navbar-custom .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-custom .nav-link {
+        font-size: 1rem;
+    }
+    .navbar-custom .nav-link:hover {
+      color: #f39f19;
+  }
+  .nav-link:hover {
+    transform: scale(0.1); }
+}

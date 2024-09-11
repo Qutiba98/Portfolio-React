@@ -1,0 +1,25 @@
+/* src/components/SkillsSection/SkillsSection.css */
+.py-5 {
+  padding: 3rem 0;
+}
+
+.bg {
+  background-color: #f9f9f9;
+}
+
+.heading-text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.skill {
+  margin-bottom: 1.5rem;
+}
+
+.skill i {
+  color: #f39f19;
+}
+
+.skill b {
+  font-size: 1.2rem;
+}
